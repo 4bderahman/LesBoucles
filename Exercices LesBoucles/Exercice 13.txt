@@ -1,0 +1,28 @@
+ALGORITHME:     MAGAZIN
+
+VARIABLES:   copies, facture : ENTIER
+    
+    DEBUT
+
+ECRIRE ("Entrez le nombre de copies effectuées : ")
+LIRE (copies)
+
+SI copies <= 10 ALORS:
+
+    facture = copies * 0,30
+
+SINON :
+
+      SI copies <= 30 ALORS:
+            facture = (10 * 0,30) + ((copies - 10) * 0,25)
+
+        SINON :
+
+            facture = (10 * 0,30) + (20 * 0,25) + ((copies - 30) * 0,20)
+
+      FIN SI
+      FIN SI
+
+        ECRIRE ("La facture est de : ", facture, " dh")
+
+FIN

@@ -1,0 +1,36 @@
+Exercice 11:
+
+ALGORITHME:  Signe
+
+VARIABLES:          a, b : entier
+
+DÉBUT:
+
+ECRIRE ("SVP ENTRER LE 1er ENTIER")
+LIRE (a)
+ECRIRE ("SVP ENTRER LE 2eme ENTIER")
+LIRE (b)
+
+
+SI (a = 0) et (b = 0) ALORS
+
+   ÉCRIRE ("Les deux nombres sont zéro.")
+
+SINON 
+
+  SI a*b > 0 ALORS
+
+   ÉCRIRE ("Les deux nombres sont du même signe.")
+
+SINON
+
+   ÉCRIRE ("Les deux nombres ne sont pas du même signe.")
+
+    FIN SI
+FIN
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Algorithme: AGE
+
+ VARIABLES      age : ENTIER
+
+    DEBUT
+
+        ECRIRE ("Entrez l'âge de l'enfant : ")
+
+        LIRE (age)
+
+SI age >= 6 et age <= 7 ALORS
+     ECRIRE ("La catégorie de l'enfant est : Poussin")
+
+  SINON 
+     SI age >= 8 et age <= 9 ALORS
+     ECRIRE ("La catégorie de l'enfant est : Pupile")
+
+SINON 
+     SI age >= 10 et age <= 11 ALORS:
+     ECRIRE ("La catégorie de l'enfant est : Minime")
+        
+SINON 
+     SI age >= 12 ALORS
+     ECRIRE ("La catégorie de l'enfant est : Cadet")
+       
+ SINON
+   ECRIRE ("L'enfant est trop jeune.")
+        
+FIN SI   
+FIN SI
+FIN SI
+FIN SI
+FIN

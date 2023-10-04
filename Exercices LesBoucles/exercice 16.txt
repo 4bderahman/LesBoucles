@@ -1,0 +1,39 @@
+Algorithme EQUATION
+
+VARIABLES:    a, b, c, delta, x1, x2 : REEL
+
+
+DEBUT;
+
+ECRIRE ("Entrez la valeur de a : ")
+        LIRE (a)
+ECRIRE ("Entrez la valeur de b : ")
+        LIRE (b)
+ECRIRE ("Entrez la valeur de c : ")
+        LIRE (c)
+
+delta ← b^2 - 4*a*c
+
+SI delta > 0 ALORS:
+      
+       x1 ← (-b - sqrt(delta)) / (2*a)
+       x2 ← (-b + sqrt(delta)) / (2*a)
+            
+ECRIRE ("L'équation a deux solutions :", x1, " et ", x2)
+        
+SINON 
+
+    SI delta = 0 ALORS:
+            
+       x1 ← -b / (2*a)
+            
+ ECRIRE ("L'équation a une solution :", x1) en ce 
+        
+SINON
+  
+ECRIRE ("L'équation n'a pas de solution réelle.")
+       
+ FIN SI
+ FIN SI
+
+FIN 

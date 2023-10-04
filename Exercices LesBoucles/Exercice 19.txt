@@ -1,0 +1,25 @@
+Algorithme: Nbre_Jours
+
+VARIABLES
+               mois : CHAINE
+               jours : ENTIER
+DEBUT
+        ECRIRE("Entrez le nom du mois : ")
+        LIRE(mois)
+
+        CAS mois VAUT:
+
+            CAS ('Janvier', 'Mars', 'Mai', 'Juillet', 'Août', 'Octobre', 'Décembre') :
+                jours ← 31
+
+            CAS ('Avril', 'Juin', 'Septembre', 'Novembre') :
+                jours ← 30
+
+            CAS ('Février') :
+                jours ← 28
+
+            
+        FIN CAS
+
+        ECRIRE("Le mois de ", mois, " a ", jours, " jours.")
+    FIN

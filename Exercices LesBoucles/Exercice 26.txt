@@ -1,0 +1,24 @@
+Algorithme  SCarrée
+
+
+VARIABLES
+            n, i, s, Impair : ENTIER
+
+DEBUT
+
+ECRIRE("Entrez un entier n : ")
+LIRE(n)
+
+S ← 0
+Impair ← 1
+
+POUR i <- 1 à n pas 1 FAIRE:
+       
+        s ← s + (Impair^2)
+        Impair ← Impair + 2
+
+FIN POUR
+
+  ECRIRE("La somme des carrés des ", n, " premiers entiers impairs est :", s)
+
+ FIN

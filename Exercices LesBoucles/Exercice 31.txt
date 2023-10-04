@@ -1,0 +1,25 @@
+Algorithme suite
+
+variable.   n , U0 , Un , U1, i : entiers
+
+Debut
+
+Ecrire("veuillez entrez un entier n superieur à 2 :")
+lire(n)
+
+U0 <-- 0
+U1 <-- 1
+
+Ecrire(" la suite de fibonacci jusqua ", n ":")
+Ecrire(U0)
+Ecrire(U1)
+
+Tant que ( U0 + U1 ) <- n faire :
+
+      Un <-- U0 + U1 
+         Ecrire(Un)
+      U0 <-- U1
+      U1 <-- Un
+Fin tantque
+
+Fin

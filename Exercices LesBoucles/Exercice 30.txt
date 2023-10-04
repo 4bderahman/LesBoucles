@@ -1,0 +1,21 @@
+Algorithme  Calcul_Un
+    
+
+VARIABLES
+            n, Un : ENTIER
+DEBUT
+
+ECRIRE("Entrez un entier n : ")
+LIRE(n)
+
+Un ← 6  
+
+POUR n <- 1 à n pas 1 FAIRE:
+     
+      Un ← 4*Un + 10
+      
+FIN POUR
+
+ECRIRE("La valeur de U", n, " est :", Un)
+    
+FIN

@@ -1,0 +1,23 @@
+Algorithme  SommeAmal
+   
+VARIABLES
+           n, i, s, depotAnnuel : ENTIER
+   
+DEBUT
+
+ ECRIRE("Entrez le nombre d'années (n) : ")
+  LIRE(n)
+
+S ← 0 
+
+POUR i <- 1 à n pas 1 FAIRE
+   
+depotAnnuel ← 500 + (3 * i)
+
+S ← s + depotAnnuel
+
+FIN POUR
+
+ECRIRE("La somme que Amal aura lors de son ", n, "ème anniversaire est :", s, "dh")
+ 
+FIN

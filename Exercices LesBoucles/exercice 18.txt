@@ -1,0 +1,35 @@
+Algorithme Prix
+
+    VARIABLES
+
+        prixHT, prixTTC, tva : REEL
+        categorie : CARACTERE
+    DEBUT
+
+        ECRIRE ("Entrez le prix hors taxe du produit : ")
+        LIRE (prixHT)
+
+        ECRIRE ("Entrez la catégorie du produit (A, B ou C) : ")
+        LIRE (categorie)
+
+        CAS categorie vaut:
+
+            CAS 'A' :
+                tva = 0.07
+
+            CAS 'B' :
+                tva = 0.20
+
+            CAS 'C' :
+                tva = 0.25
+
+            Sinon :
+                ECRIRE ("Catégorie invalide.")
+               
+        FIN Cas
+
+        prixTTC = prixHT + (prixHT * tva)
+
+        ECRIRE ("Le prix TTC du produit est : ", prixTTC)
+    FIN
+

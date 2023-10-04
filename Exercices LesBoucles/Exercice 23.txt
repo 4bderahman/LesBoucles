@@ -1,0 +1,22 @@
+Algorithme: SommeS
+   
+ 
+VARIABLES
+            n, i : ENTIER
+               s : REEL
+
+DEBUT
+        ECRIRE("Entrez la valeur de n : ")
+        LIRE(n)
+
+s ← 0
+
+POUR i <- 1 à n pas 1 FAIRE:
+
+        s ← s + (1/i)
+        
+FIN POUR
+
+ ECRIRE("La somme s pour n =", n, " est :", s)
+
+FIN

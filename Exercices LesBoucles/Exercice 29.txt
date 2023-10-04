@@ -1,0 +1,29 @@
+Algorithme PopulationAgadir
+
+VARIABLES
+            popMarrakech, popAgadir, annees : ENTIER
+
+DEBUT
+
+popMarrakech ← 1000000
+
+popAgadir ← 500000
+
+annees ← 0
+
+
+TANT QUE popAgadir ≤ popMarrakech FAIRE:
+
+popMarrakech ← popMarrakech + 50000
+
+popAgadir ← popAgadir * 1.08
+
+annees ← annees + 1
+
+FIN TANT QUE
+
+       
+ECRIRE(annees)
+   
+FIN
+              

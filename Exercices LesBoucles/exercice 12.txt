@@ -1,0 +1,31 @@
+ALGORITHME: Echange_Cond
+
+
+VARIABLES:     x, y, z : RÉEL
+
+DÉBUT:
+
+ECRIRE("SVP ENTRER LE 1er NOMBRE")
+LIRE (X)
+ECRIRE("SVP ENTRER LE 2eme NOMBRE")
+LIRE (y)
+
+    SI x*y > 0 ALORS :
+       
+        Z ← x
+        x ← y
+        y ← z
+
+    SINON
+        x ← x + y
+        y ← x * y
+
+    FIN SI
+
+    ECRIRE ("La 1er donnée est maintenant:", x)
+    ECRIRE ("La 2eme donnée est maintenant:", y)
+FIN
+
+
+
+

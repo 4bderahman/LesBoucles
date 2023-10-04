@@ -1,0 +1,31 @@
+Algorithme DixNombresSuivants_TantQue
+   
+ VARIABLES
+
+             Depart, i : ENTIER
+   
+ DEBUT
+        ECRIRE("Entrez un nombre de départ : ")
+        LIRE(Depart)
+
+        I ← 1
+      
+  TANT QUE i ≤ 10 FAIRE:
+
+           Total<--depart + I
+            
+           I ← i + 1
+
+        FIN TANT QUE
+
+      I ← 1
+        
+         ECRIRE("Les dix nombres suivants sont :")
+       
+ REPETER
+            ECRIRE(Depart + compteur)
+
+            i ← i + 1
+
+        JUSQU'A i > 10
+ FIN

@@ -1,0 +1,21 @@
+Algorithme: SommeS
+
+VARIABLES
+             n, i : ENTIER
+             S : REEL
+DEBUT
+       
+ ECRIRE("Entrez la valeur de n : ")
+ LIRE(n)
+
+S ← 0
+POUR i <- 0 à n pas 1 FAIRE
+            
+      S ← S + (10^i)
+        
+FIN POUR
+
+        
+ECRIRE("La somme S pour n =", n, " est :", S)
+   
+ FIN

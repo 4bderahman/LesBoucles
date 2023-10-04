@@ -1,0 +1,22 @@
+Algorithme: Impot
+
+VARIABLES.     age : ENTIER
+               sexe : CARACTERE
+
+DEBUT
+       
+ ECRIRE ("Entrez l'âge de l'habitant : ")
+    LIRE (age)
+
+ECRIRE ("Entrez le sexe de l'habitant (H pour homme, F pour femme) : ")
+    LIRE (sexe)
+
+SI (sexe = 'H' et age > 20) OU (sexe = 'F' et age >= 18 et age <= 35) ALORS
+    ECRIRE ("L'habitant est imposable.")
+
+SINON
+
+    ECRIRE ("L'habitant n'est pas imposable.")
+        
+FIN SI
+FIN 

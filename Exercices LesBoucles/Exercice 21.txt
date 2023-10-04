@@ -1,0 +1,18 @@
+Algorithme DixNombresSuivants
+    
+
+VARIABLES
+              Depart, i : ENTIER
+
+DEBUT
+        ECRIRE("Entrez un nombre de départ : ")
+        LIRE(nombreDepart)
+
+        ECRIRE("Les dix nombres suivants sont :")
+        
+POUR i <- 1 à 10 pas 1 FAIRE
+            
+        ECRIRE(Depart + i)
+
+FIN POUR
+FIN

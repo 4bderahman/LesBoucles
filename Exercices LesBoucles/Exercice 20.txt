@@ -1,0 +1,42 @@
+Algorithme: OPERATOR
+
+VARIABLES: A, B, resultat : ENTIER
+                      operateur : CARACTERE
+
+DEBUT
+  ECRIRE("Entrez le premier nombre entier : ")
+   LIRE(A)
+
+  ECRIRE("Entrez le deuxième nombre entier : ")
+   LIRE(B)
+
+  ECRIRE("Entrez l'opérateur (+, -, *, /) : ")
+   LIRE(operateur)
+
+CAS operateur VAUT
+
+            CAS '+' :
+                resultat ← A + B
+
+            CAS '-' :
+                resultat ← A - B
+
+            CAS '*' :
+                resultat ← A * B
+
+            CAS '/' :
+
+                SI B ≠ 0 ALORS
+                    resultat ← A / B
+
+                SINON
+                    ECRIRE("Erreur : Division par zéro.")
+ 
+                FIN SI
+
+    
+        FIN CAS
+
+        ECRIRE("Le résultat de ", A, " ", operateur, " ",B, " est : ", resultat)
+
+    FIN

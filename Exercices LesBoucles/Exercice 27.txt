@@ -1,0 +1,21 @@
+Algorithme:  Diviseurs
+
+VARIABLES
+            n, i : ENTIER
+
+DEBUT
+
+ECRIRE("Entrez un entier positif non nul : ")
+LIRE(n)
+
+ECRIRE("Les diviseurs de ", n, " sont :")
+
+POUR i <- 1 à n pas 1 faire:
+
+    SI n mod i = 0 ALORS:
+
+       ECRIRE(i)
+       
+FIN SI
+FIN POUR 
+FIN

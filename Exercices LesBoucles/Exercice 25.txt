@@ -1,0 +1,20 @@
+Algorithme FactorielleSimple
+    
+VARIABLES
+          n, i, fact : ENTIER
+    
+
+DEBUT
+        ECRIRE("Entrez un nombre : ")
+        LIRE(n)
+
+        fact ← 1
+        POUR i <- 1 à n pas 1 FAIRE:
+
+            fact ← fact * i
+
+        FIN POUR
+
+        ECRIRE(n, "! =", fact)
+
+    FIN

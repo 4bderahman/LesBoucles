@@ -1,0 +1,37 @@
+Algorithme: NOTE
+
+VARIABLES :   note1, note2, note3, moyenne : REEL
+
+DEBUT
+
+ ECRIRE ("Entrez la première note (sur 20) : ")
+        LIRE (note1)
+
+ ECRIRE ("Entrez la deuxième note (sur 20) : ")
+        LIRE (note2)
+
+ ECRIRE ("Entrez la troisième note (sur 20) : ")
+        LIRE (note3)
+
+moyenne = (note1 + note2 + note3) / 3
+
+ECRIRE ("La moyenne de l'étudiant est : ", moyenne)
+
+SI moyenne >= 16 ALORS
+     ECRIRE ("Mention : Très bien")
+
+SINON SI moyenne >= 14 ET moyenne < 16 ALORS
+     ECRIRE "Mention : Bien"
+SINON SI moyenne >= 12 ET moyenne < 14 ALORS
+     ECRIRE "Mention : Assez bien"
+SINON SI moyenne >= 10 ET moyenne < 12 ALORS
+     ECRIRE "Mention : Passable"
+     SINON
+     ECRIRE "Mention : Insuffisant"
+        FIN SI
+    FIN
+FIN Algorithme
+
+
+
+
